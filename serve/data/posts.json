@@ -1,0 +1,25 @@
+{
+  "post": [
+    {
+      "title": "Primeros pasos con React Router",
+      "slug": "primeros-pasos-react-router",
+      "date": "2025-06-22",
+      "summary": "Una guía rápida para comenzar a usar React Router en tu proyecto.",
+      "content": "React Router te permite manejar rutas dinámicas en aplicaciones de una sola página. En esta entrada veremos cómo configurar las rutas básicas con <BrowserRouter> y <Routes>."
+    },
+    {
+      "title": "Cómo estructurar tu blog en React",
+      "slug": "estructura-blog-react",
+      "date": "2025-06-21",
+      "summary": "Organiza tu blog con una arquitectura limpia y componentes reutilizables.",
+      "content": "Tener una buena estructura en tu blog te facilitará escalar y mantener tu código. Hablamos sobre dividir vistas, componentes, y cómo usar un archivo JSON para los posts."
+    },
+    {
+      "title": "Usar Markdown en tus posts de React",
+      "slug": "markdown-en-react",
+      "date": "2025-06-20",
+      "summary": "Convierte archivos .md en contenido visualmente atractivo con react-markdown.",
+      "content": "Markdown es una forma sencilla de escribir contenido rico. Con react-markdown puedes renderizar estos archivos directamente en React de forma limpia y segura."
+    }
+  ]
+}
