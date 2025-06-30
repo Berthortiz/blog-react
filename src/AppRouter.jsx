@@ -9,11 +9,8 @@ export default function AppRouter() {
         <Route path="/home" element={<HomePage></HomePage>} ></Route>
         <Route path="/" element={<Navigate to="/home" ></Navigate>} ></Route>
         <Route path="/post/:slug" element={<Post></Post>}></Route>
-
+        {/* crear ruta para cada categoria */}
       </Routes >
-
-
-
     </BrowserRouter>
   )
 }

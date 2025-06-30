@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <h1 className=' 500'>Vite + React</h1>
+      <h1 className="title">Vite + React</h1>
 
     </>
   )

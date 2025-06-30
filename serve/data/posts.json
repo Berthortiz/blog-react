@@ -3,23 +3,66 @@
     {
       "title": "Primeros pasos con React Router",
       "slug": "primeros-pasos-react-router",
-      "date": "2025-06-22",
+      "date": {
+        "year": "2025",
+        "month": "May",
+        "day": "03"
+      },
+      "author": {
+        "name": "Alberto",
+        "imgPostAuthor": "/public/alexander-hipp.webp"
+      },
+      "published": true,
       "summary": "Una guía rápida para comenzar a usar React Router en tu proyecto.",
-      "content": "React Router te permite manejar rutas dinámicas en aplicaciones de una sola página. En esta entrada veremos cómo configurar las rutas básicas con <BrowserRouter> y <Routes>."
+      "content": "React Router te permite manejar rutas dinámicas en aplicaciones de una sola página. En esta entrada veremos cómo configurar las rutas básicas con <BrowserRouter> y <Routes>.",
+      "contentMarkdown": "# Primeros pasos con React Router\n\nReact Router te permite manejar rutas dinámicas en aplicaciones de una sola página.\n\n## Instalación\n\n```bash\nnpm install react-router-dom\n```\n\n## Configuración básica\n\nEn esta entrada veremos cómo configurar las rutas básicas con `<BrowserRouter>` y `<Routes>`.",
+      "image": "/public/post-image/joshua-kettle-mHm1ASYNC0I.webp",
+      "category": {
+        "tag": "react",
+        "name": "React"
+      }
     },
     {
       "title": "Cómo estructurar tu blog en React",
       "slug": "estructura-blog-react",
-      "date": "2025-06-21",
+      "date": {
+        "year": 1995,
+        "month": "May"
+      },
+      "author": {
+        "name": "Alberto",
+        "imgPostAuthor": "/public/alexander-hipp.webp"
+      },
+      "published": true,
       "summary": "Organiza tu blog con una arquitectura limpia y componentes reutilizables.",
-      "content": "Tener una buena estructura en tu blog te facilitará escalar y mantener tu código. Hablamos sobre dividir vistas, componentes, y cómo usar un archivo JSON para los posts."
+      "content": "Tener una buena estructura en tu blog te facilitará escalar y mantener tu código. Hablamos sobre dividir vistas, componentes, y cómo usar un archivo JSON para los posts.",
+      "contentMarkdown": "# Cómo estructurar tu blog en React\n\nTener una buena estructura en tu blog te facilitará escalar y mantener tu código.\n\n## Organización de archivos\n\n```\nsrc/\n├── components/\n├── views/\n├── data/\n└── styles/\n```\n\n## Componentes reutilizables\n\nHablamos sobre dividir vistas, componentes, y cómo usar un archivo JSON para los posts.",
+      "image": "#",
+      "category": {
+        "tag": "react",
+        "name": "React"
+      }
     },
     {
       "title": "Usar Markdown en tus posts de React",
       "slug": "markdown-en-react",
-      "date": "2025-06-20",
+      "date": {
+        "year": 1995,
+        "month": "May"
+      },
+      "author": {
+        "name": "Alberto",
+        "imgPostAuthor": "/public/alexander-hipp.webp"
+      },
+      "published": true,
       "summary": "Convierte archivos .md en contenido visualmente atractivo con react-markdown.",
-      "content": "Markdown es una forma sencilla de escribir contenido rico. Con react-markdown puedes renderizar estos archivos directamente en React de forma limpia y segura."
+      "content": "Markdown es una forma sencilla de escribir contenido rico. Con react-markdown puedes renderizar estos archivos directamente en React de forma limpia y segura.",
+      "contentMarkdown": "# Usar Markdown en tus posts de React\n\nMarkdown es una forma sencilla de escribir contenido rico.\n\n## Instalación\n\n```bash\nnpm install react-markdown\n```\n\n## Uso básico\n\n```jsx\nimport ReactMarkdown from 'react-markdown';\n\nfunction Post({ content }) {\n  return <ReactMarkdown>{content}</ReactMarkdown>;\n}\n```\n\nCon react-markdown puedes renderizar estos archivos directamente en React de forma limpia y segura.",
+      "image": "#",
+      "category": {
+        "tag": "react",
+        "name": "React"
+      }
     }
   ]
 }

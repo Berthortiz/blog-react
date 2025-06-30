@@ -1,0 +1,12 @@
+{
+    "categoryIndexColor": [
+        {
+            "id": "react",
+            "color": "#155dfc"
+        },
+        {
+            "id": "markdonw",
+            "color": "red"
+        }
+    ]
+}
