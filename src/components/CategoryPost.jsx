@@ -19,7 +19,7 @@ export default function CategoryPost({ category }) {
     console.log(" true " + color);
     return (
         <>
-            <span className="text-2xl text-white" style={{ backgroundColor: `${color}` }} >{category.name}</span>
+            <span className="w-fit flex items-center py-1 px-3 rounded-xl text-sm text-white" style={{ backgroundColor: `${color}` }} >{category.name}</span>
 
         </>
     )
