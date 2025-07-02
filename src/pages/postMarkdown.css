@@ -1,0 +1,56 @@
+/* Estilos personalizados para código inline en Markdown */
+
+
+/* .prose h1, */
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+    font-weight: bold;
+    font-size: 1.7em;
+    line-height: 1.25;
+    margin: .4em 0;
+    color: #111;
+}
+
+/* Código en linea */
+
+.prose code {
+    background-color: #374151;
+    color: #f9fafb;
+    border: none;
+    padding: 0.225rem 0.425rem;
+    border-radius: 0.25rem;
+    /* font-size: 0.875em; */
+    font-weight: 400;
+    /* border: 1px solid #e5e7eb; */
+    margin-right: 2px;
+}
+
+/* Código en bloque */
+.prose pre code {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    color: rgb(167, 167, 167);
+    /* overflow-x: hidden; */
+
+}
+
+.prose img {
+    width: 100%;
+}
+
+.prose code::before,
+.prose code::after {
+    content: none;
+}
+
+/* Para modo oscuro si lo necesitas */
+@media (prefers-color-scheme: dark) {
+    .prose code {
+        color: #f9fafb;
+        border: none;
+    }
+}

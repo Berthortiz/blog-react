@@ -18,7 +18,8 @@ app.use(express.json());
 // Ruta para obtener todos los posts
 app.get('/api/posts', async (req, res) => {
   try {
-    const filePath = path.join(__dirname, 'data', 'posts.json');
+    // Ahora lee desde public/blog/posts.json
+    const filePath = path.join(__dirname, '..', 'public', 'blog', 'posts.json');
     const data = await fs.readFile(filePath, 'utf-8');
     const parsed = JSON.parse(data);
     res.json(parsed);
@@ -31,7 +32,8 @@ app.get('/api/posts', async (req, res) => {
 // Ruta para obtener un post por slug
 app.get('/api/posts/:slug', async (req, res) => {
   try {
-    const filePath = path.join(__dirname, 'data', 'posts.json');
+    // Ahora lee desde public/blog/posts.json
+    const filePath = path.join(__dirname, '..', 'public', 'blog', 'posts.json');
     const data = await fs.readFile(filePath, 'utf-8');
     const posts = JSON.parse(data);
     const post = posts.post.find(p => p.slug === req.params.slug);
@@ -44,6 +46,7 @@ app.get('/api/posts/:slug', async (req, res) => {
     res.status(500).json({ error: 'No se pudo cargar el archivo' });
   }
 });
+
 
 app.listen(PORT, () => {
   console.log(`✅ Backend corriendo en http://localhost:${PORT}`);
