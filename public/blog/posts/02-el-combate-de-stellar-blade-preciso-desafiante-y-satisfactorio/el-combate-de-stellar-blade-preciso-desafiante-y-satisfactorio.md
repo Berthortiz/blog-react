@@ -1,5 +1,8 @@
+
 ## Stellar Blade: Un Combate que Te Hace Sentir Cada Golpe
-Stellar Blade, el aclamado RPG de acción de Shift Up, no solo ha capturado la atención por su impresionante apartado visual y su protagonista, Eve, sino también por su sistema de combate, que se ha convertido en uno de sus puntos más fuertes. En este artículo, te cuento por qué pelear en Stellar Blade es tan satisfactorio y qué lo hace destacar en un género tan competitivo.
+![Stelar Blade](/public/blog/posts/02-el-combate-de-stellar-blade-preciso-desafiante-y-satisfactorio/main-img.jpg)
+
+***Stellar Blade***, el aclamado RPG de acción de **Shift Up**, no solo ha capturado la atención por su impresionante apartado visual y su atractiva protagonista, Eve, sino también por su sistema de combate, que se ha convertido en uno de sus puntos más fuertes. En este artículo, te cuento por qué pelear en Stellar Blade es tan satisfactorio y qué lo hace destacar en un género tan competitivo.
 
 ## Una mezcla de precisión y espectáculo
 El combate de Stellar Blade se inspira claramente en grandes referentes como Nier: Automata o Bayonetta, pero logra tener identidad propia. Aquí cada golpe se siente pesado y fluido a la vez, gracias a animaciones pulidas y una respuesta inmediata a tus acciones.
